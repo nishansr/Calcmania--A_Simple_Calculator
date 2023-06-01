@@ -32,6 +32,7 @@ dependencies:
   flutter:
     sdk: flutter
   math_expressions: ^2.4.0
+  google_fonts: ^4.0.5
 
 dev_dependencies:
 
