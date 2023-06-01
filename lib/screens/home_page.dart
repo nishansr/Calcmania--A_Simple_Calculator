@@ -1,5 +1,6 @@
 import 'package:calcmania/widgets/buttons.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:math_expressions/math_expressions.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -55,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           alignment: Alignment.centerLeft,
                           child: Text(
                             userQuestion,
-                            style: TextStyle(
+                            style: GoogleFonts.notoSerif(
                               fontWeight: FontWeight.bold,
                               fontSize: 25,
                             ),
@@ -65,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           alignment: Alignment.centerRight,
                           child: Text(
                             userAnswer,
-                            style: TextStyle(
+                            style: GoogleFonts.notoSerif(
                               fontWeight: FontWeight.bold,
                               fontSize: 25,
                             ),
