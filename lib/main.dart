@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'screens/home_page.dart';
 import 'screens/splash_screen.dart';
@@ -20,6 +21,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: AnimatedSplashScreen(
+        duration: 500,
+        splashTransition: SplashTransition.fadeTransition,
         backgroundColor: Color.fromARGB(255, 159, 142, 206),
         splash: Splash(),
         nextScreen: HomeScreen(),
